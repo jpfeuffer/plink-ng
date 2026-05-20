@@ -368,4 +368,9 @@ cd TEST_MULTIALLELIC_PHASED_R
 cd ..
 echo "TEST_MULTIALLELIC_PHASED_R passed."
 
+cd TEST_S3_PGEN_FREQ
+./run_tests.sh $d $2 $3 > TEST_S3_PGEN_FREQ.log
+cd ..
+echo "TEST_S3_PGEN_FREQ passed."
+
 echo "All tests passed."
